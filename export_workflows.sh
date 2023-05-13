@@ -7,7 +7,7 @@ set -euo
 docker run \
     -e N8N_ENCRYPTION_KEY \
     -e GENERIC_TIMEZONE \
-    -e TZ \
+    -e TimeZ \
     -e DB_TYPE \
     -e DB_POSTGRESDB_DATABASE \
     -e DB_POSTGRESDB_HOST \
